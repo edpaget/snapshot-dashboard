@@ -1,0 +1,21 @@
+{
+  "name": "snapshot-dashboard",
+  "version": "0.0.1",
+  "description": "Nodejs server to take snapshots of dashbaord pages for saved view. Uses xvfb and firefox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edpaget/snapshot-dashboard"
+  },
+  "author": "Ed Paget",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies" : {
+    "aws-sdk" : "*",
+    "express" : "*",
+    "lispyscript" : "*"
+  }
+}
